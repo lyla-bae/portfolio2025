@@ -1,0 +1,299 @@
+
+/*tab*/
+/*가로*/
+@media all and (max-width:1599px) {
+
+
+    .container{
+        max-width:91.66%;
+    }
+    .s1 .t2 .text_wrap{
+        max-width: 91.66%;
+    }
+    .text_wrap {
+        word-break: keep-all;
+    }
+
+/*    menu*/
+    
+    nav{
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        left: 0;
+        top: 0;
+        padding: 4.166%;
+        box-sizing: border-box;
+        
+        display: none;
+    }
+    nav ul {
+    }
+    nav ul.swagger.h6{
+        position: absolute;
+        top: 50%;
+        transform: rotate(0deg) translateY(-50%);
+        font-size: 40px;
+    }
+    nav li{
+        float: unset;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    
+    nav .menu{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-200%);
+        padding-bottom: 30px;
+    }
+    nav .copy{
+        padding: 20px 0;
+        border-top: 1px solid rgba(0,0,0,0.1);
+    }
+    nav .footer .mobile{
+        
+    }
+    nav img{
+        display: block;
+    }
+    nav footer{
+        background: none;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0 4.166%;
+        box-sizing: border-box;
+    }
+    nav .mobile{
+        display: block!important;
+    }
+    .ham {
+        top: 60px;
+        z-index: 999;
+    }
+    .s2 .box_wrap{
+        overflow: visible;
+    }
+    .s2 .box_wrap .box .text_wrap{
+        position: relative;
+        background: none;
+        opacity: 1;
+        color: #828191;
+        overflow: visible;
+    }
+    .s2 .box_wrap .box .text {
+        position: relative;
+        bottom: inherit;
+        top: 20px;
+        left: 0;
+    }
+    .s2 .box_wrap .box:hover .text{
+        transform: translateY(0)
+        transition: none;
+    }
+    .s2 .box_wrap .box .text .h3{
+        font-size: 20px;
+        color: #7C7BC4;
+    }
+    .s4 .text_wrap {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .s4_footer footer{
+        display: none;
+    }
+    .s4 .swagger.h6 .white{
+        margin-right: 5px;
+    }
+    .s4 .swagger.h6 span{
+        display: inline;
+    }
+}
+
+/*세로*/
+@media all  and (max-width:1365px) {
+    .mobile{
+        display: block!important;
+    }
+    .pc{
+        display: none!important;
+    }
+    .container{
+        padding: 60px 0;
+    }
+    .s1 .container.t1{
+        padding-top: 60px;
+    }
+/*
+    .container{
+        max-width: 686px;
+    }
+    .s1 .t2 .text_wrap{
+        width: 686px;
+    }
+*/
+    .s2 .color2 {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .s2 .text_wrap .title{
+        text-align: left;
+    }
+    .s2 .box_wrap{
+        overflow:visible;
+    }
+    .s2 .box_wrap .box{
+        margin-right: 20px;
+    }
+    .s3 .text_wrap{
+        width: 100%;
+        
+    }
+    .s3 .text_wrap img{
+        width: 100%;
+    }
+    .s3 .text_wrap .text1, .s3 .text_wrap .text2{
+        top: 0;
+        transform: translateY(0)
+    }
+    .s3 .text_wrap .swagger.color1{
+        margin-bottom: 20px;
+    }
+    .s3 .text_wrap .h3{
+        margin-bottom: 40px;
+    }
+    .s3 ul{
+        margin-bottom: 40px;
+    }
+    .s3 .img1{
+        margin-bottom: 80px;
+    }
+    .p-wrap {
+        position: unset;
+    }
+    .panel{
+        position: unset;
+    }
+    .panel img{
+        position: unset;
+    }
+    .panel.img2{
+        height: auto;
+    }
+    .s2 .box_wrap .box .img{
+        width: 75vw;
+        height: auto;
+    }  
+}
+/*m*/
+@media all and (max-width:767px) {
+    
+    .container{
+        max-width: 77.78%;
+        padding: 80px 0;
+    }
+
+    .s1 .t2 .text_wrap{
+        max-width: 77.78%;
+    }
+/*    햄버거*/
+
+    .ham{
+        width: 20px;
+        height: 20px;
+        top:20px;
+        left: unset;
+        right: 20px;
+    }
+    .ham .bar1 {margin-bottom: 4px;}
+    .ham .bar2 {}
+    .ham .bar3 {margin-top: 4px;}
+    
+    nav{
+        padding: 20px;
+    }
+    nav ul.swagger.h6{
+        position: absolute;
+        top: 50%;
+        transform: rotate(0deg) translateY(-50%);
+        font-size: 23px;
+    }
+    nav footer{
+        padding: 0 20px;
+    }
+    /*font size*/
+/*
+    .h1{
+        font-size: 50px;
+    }
+*/
+    .h3{
+        font-size: 23px;
+    }
+    .h4{
+        font-size: 24px;
+    }
+    .h5{
+        font-size: 16px;
+    }
+    .h6{
+        font-size: 14px;
+    }
+    
+    .swagger.h1{
+        font-size: 45px;
+    }
+/*
+    .swagger.h3{
+        font-size: 60px;
+    }
+*/
+    .swagger.h4{
+        font-size: 18px;
+    }
+    .swagger.h6 {
+        font-size: 16px;
+    }
+    
+    
+    .s1 .container {
+        position: unset;
+    }
+    .s1 .container.t1{
+        padding-top: 130px;
+        padding-bottom: 0;
+    }
+    
+    .s1 .logo_wrap{
+        margin-bottom: 0;
+        position: unset;
+    }
+    .s1 .logo_wrap svg{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    .s1 .t1 .h1{
+        position: unset;
+    }
+    .s1 .t1 .h5 {
+        left: 0;
+    }
+    .s1 .t1 .h5 span{
+        display: inline;
+    }
+    
+    .s1 .img_wrap {
+    }
+    .s1 .img {
+/*        width: 280px;*/
+        background-position: 68% 50%;
+    }
+    .s1 .t2{
+        padding-bottom: 80px;
+    }
+    
+
+}
